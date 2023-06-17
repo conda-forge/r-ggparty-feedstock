@@ -1,11 +1,11 @@
-About r-ggparty
-===============
+About r-ggparty-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ggparty-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/martin-borkovec/ggparty
 
 Package license: GPL-2 | GPL-3
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ggparty-feedstock/blob/main/LICENSE.txt)
 
 Summary: Extends 'ggplot2' functionality to the 'partykit' package. 'ggparty' provides the necessary tools to create clearly structured and highly customizable visualizations for tree-objects of the class 'party'.
 
