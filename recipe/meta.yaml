@@ -1,4 +1,4 @@
-{% set version = '1.0.0' %}
+{% set version = "1.0.0.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ggparty_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ggparty/ggparty_{{ version }}.tar.gz
-  sha256: 0e7b29ee4519306c81f5c17f08131d6c466f3ee68f4b65e41d7482916ec9d068
+  sha256: c0d1b31e0607c7698242602c22507a231a9c377d342071d774c33dbc28885c74
 
 build:
-  number: 5
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -46,9 +46,7 @@ test:
 about:
   home: https://github.com/martin-borkovec/ggparty
   license: GPL-2 | GPL-3
-  summary: Extends 'ggplot2' functionality to the 'partykit' package. 'ggparty' provides the
-    necessary tools to create clearly structured and highly customizable visualizations
-    for tree-objects of the class 'party'.
+  summary: Extends 'ggplot2' functionality to the 'partykit' package. 'ggparty' provides the necessary tools to create clearly structured and highly customizable visualizations for tree-objects of the class 'party'.
   license_family: GPL3
   license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'
 
